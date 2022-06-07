@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style2.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+<div class="container">
+<h1>Форма обратной связи</h1>
+<form class="js-form" action="" novalidate>
+    <p><b>Оставьте свой отзыв</b></p>
+    <p>Почта</p>
+    <input type="email" class="input js-input  js-input-email" name="email" placeholder="Почта">
+    <p>Номер телефона</p>
+    <input type="tel" class="input js-input js-input-phone" name="phone" placeholder="Телефон">
+    <p>Отзыв</p>
+    <textarea class="input js-input js-input-text" title="Текст отзыва" placeholder="Текст отзыва"></textarea>
+    <p><button type="submit">Отправить</button></p> 
+</form>
+<section>
+    <div class="container">
+    <div class="accordion">
+        <h3>О компании</h3>
+        <div>Агропромышленный парк "Казань"</div>
+        
+        <h3>Контакты</h3>
+        <div>+38 057 855 12 54
+
+            info@agroprompark-kazan.ru</div>
+        
+        <h3>Адрес</h3>
+        <div>г. Казань, Аграрная, 2</div>
+    </div>
+</div>
+</section>
+</div>   
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+        <script>
+            $('.accordion').accordion({
+	        heightStyle: 'content'
+            });
+        </script>
+    <script src="java/valid.js"></script>
+</body>
+</html>

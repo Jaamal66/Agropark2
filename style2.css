@@ -1,0 +1,111 @@
+body{
+    
+    font-family: Buyan;
+    font-size: 20px;
+    background: silver;
+}
+
+.input
+{
+    width: 500px;
+    height: 50px;
+    border-radius: 20px 20px 20px 20px;
+    border:1px solid black;
+    font-family: Buyan;
+    font-size: 40px;
+  
+}
+
+.input.error
+{
+    border-color: red;
+}
+
+textarea
+{
+    height: 300px;
+}
+
+button
+{
+
+    border-radius: 20px;
+    width: 500px;
+    height: 50px;
+    font-size: 25px;
+    font-family: Buyan;
+}
+
+button:hover{
+    background: red;
+}
+
+
+textarea
+{
+    width: 500px;
+    height: 500px;
+    border-radius: 20px 20px 20px 20px;
+    border-style: none;
+    font-family: Buyan;
+    font-size: 40px;
+}
+
+
+input:hover
+{
+    cursor: grab;
+    background: w;
+    transform: translateX(20px);
+}
+
+textarea:hover{
+    cursor: grab;
+    background: w;
+    transform: translateX(20px);
+}
+
+
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lil
+{
+    width: 500px;
+    height: 50px;
+    font-family: Buyan;
+    font-size: 40px;
+    background: white;
+}
+
+.big
+{
+    width: 500px;
+    height: 500px;
+}
+
+.accordion .ui-accordion-header {
+    margin: 0 0 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background: #eee;
+    cursor: pointer;
+    outline: none;
+  }
+  .accordion .ui-accordion-content {
+    margin: 0 0 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background: #fff;
+  }
+
+  .accordion
+  {
+    width: 400px;
+    margin-top: 200px;
+  }
